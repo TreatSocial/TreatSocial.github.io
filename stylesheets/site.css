@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 10vh 2rem;
+  text-align: center;
+  font-size: 1.25rem; }
+
+a {
+  color: rgba(0, 0, 0, 0.7); }
+  a:focus, a:hover {
+    color: rgba(0, 0, 0, 0.6); }
+
+p {
+  line-height: 2; }
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem; }
+
+section#signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin: 3rem 0; }
+  section#signup input {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    padding: 1rem; }
+  section#signup button {
+    background-color: #ff4a83;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border: 0;
+    letter-spacing: 0.3em;
+    font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
+
+section#main {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto; }
+
+.pink {
+  color: #ff4a83; }
