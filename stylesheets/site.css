@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #FDFDFD;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 10vh 2rem;
@@ -31,7 +31,8 @@ section#signup {
     -webkit-box-flex: 5;
         -ms-flex: 5;
             flex: 5;
-    padding: 1rem; }
+    padding: 1rem;
+    background-color: white; }
   section#signup button {
     background-color: #ff4a83;
     color: white;
