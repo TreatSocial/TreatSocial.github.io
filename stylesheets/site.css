@@ -2,7 +2,7 @@ body {
   background-color: #FDFDFD;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 10vh 2rem;
+  padding: 5vh 2rem;
   text-align: center;
   font-size: 1.25rem; }
 
@@ -27,23 +27,33 @@ section#signup {
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   margin: 3rem 0; }
-  section#signup input {
-    -webkit-box-flex: 5;
-        -ms-flex: 5;
-            flex: 5;
-    padding: 1rem;
-    background-color: white; }
-  section#signup button {
-    background-color: #ff4a83;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    border: 0;
-    letter-spacing: 0.3em;
-    font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
+  section#signup form {
+    background-color: #FDFDFD; }
+    section#signup form div#mc_embed_signup_scroll {
+      padding: 1rem;
+      height: 50px; }
+      section#signup form div#mc_embed_signup_scroll input.email {
+        margin: 0;
+        height: 100%;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 0; }
+      section#signup form div#mc_embed_signup_scroll div.clear {
+        height: 100%; }
+        section#signup form div#mc_embed_signup_scroll div.clear input.button {
+          margin: 0;
+          height: 100%;
+          border-radius: 0;
+          background-color: #ff4a83;
+          color: white;
+          font-weight: bold;
+          text-transform: uppercase;
+          border: 0;
+          letter-spacing: 0.3em;
+          font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif; }
+  @media only screen and (min-width: 700px) {
+    section#signup form div#mc_embed_signup_scroll input.email {
+      margin-right: -4px; } }
 
 section#main {
   max-width: 700px;
